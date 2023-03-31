@@ -1,7 +1,13 @@
+import { Button } from "@chakra-ui/react";
 import "./App.css";
 
 function App() {
-  return <div className="App">hello</div>;
+  return (
+    <div className="App">
+      <Button colorScheme="blue">Button</Button>
+      hello
+    </div>
+  );
 }
 
 export default App;
